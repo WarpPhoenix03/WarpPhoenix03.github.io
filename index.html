@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <title data-key="name">Vinokurov Vladimir</title>
+  <link rel="icon" type="image/x-icon" href="img/avatar.ico">
+  <link href="css/main.css" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com" type="text/javascript"></script>
+ </head>
+ <body>
+  <header class="header">
+   <div class="avatar">
+    <img alt="Avatar of Vladimir Vinokurov" height="50" width="50" type="image/svg+xml" src="img/avatar.svg"/>
+   </div>
+   <div class="controls">
+    <label class="switch" for="theme-toggle">
+      <input class="switch__input" type="checkbox" role="switch" id="theme-toggle">
+      <img class="switch__icon switch__icon--light" alt="icon light" type="image/svg+xml"src="img/sun.svg"/>
+      <img class="switch__icon switch__icon--dark" alt="icon dark" type="image/svg+xml" src="img/moon.svg"/>
+      <span class="switch__sr">Theme mode</span>
+    </label>
+    <label class="switch" for="lang-switch">
+      <input class="switch__input" type="checkbox" role="switch" id="lang-switch">
+      <img class="switch__icon__flag__ru switch__icon--light" alt="flag-ru" type="image/svg+xml" src="img/flag-ru.svg"/>
+      <img class="switch__icon__flag__us switch__icon--dark" alt="flag-united-states" type="image/svg+xml" src="img/flag-usa.svg"/>
+      <span class="switch__sr">Language mode</span>
+    </label>
+   </div>
+  </header>
+  <div class="content">
+    <section class="text-lg">
+      <h1 class="text-4xl font-bold mb-5" data-key="name">Loading...</h1>
+      <p class="text-2xl font-bold mb-4" data-key="position">Loading...</p>
+      <p class="mb-1"><strong>GitHub: </strong><a class="text-blue-500 sm:contents hover:text-blue-200 transition-colors" href="https://github.com/WarpPhoenix03">WarpPhoenix03</a></p>
+      <p class="mb-5"><strong>Email: </strong><a class="text-blue-500 sm:contents hover:text-blue-200 transition-colors" href="mailto:v.vinokurovmessage@gmail.com">v.vinokurovmessage@gmail.com</a></p>
+    </section>
+    <section id="about">
+      <div class="section-title text-2xl" data-key="about">Loading...</div>
+      <div class="section-content">
+        <p class="text-lg text-justify mb-2" data-key="about_text_1"></p>
+        <p class="text-lg text-justify" data-key="about_text_2"></p>
+      </div>
+    </section>
+    <section id="bio">
+    <div class="section-title text-2xl" data-key="bio">Loading...</div>
+    <div class="section-content">
+     <ul class="text-lg">
+      <li data-key="live">Loading...</li>
+      <li data-key="employment">Loading...</li>
+     </ul>
+    </div>
+   </section>
+   <section id="experience">
+    <div class="section-title text-2xl" data-key="experience">Loading...</div>
+    <div class="section-content flex overflow-x-auto max-h-80">
+      <table class="table-fixed border-collapse ">
+        <thead>
+          <tr class="text-xl">
+            <th class="column column__1 border border-gray-300 p-2" data-key="period_head">Loading...</th>
+            <th class="column column__2 border border-gray-300 p-2" data-key="position_head">Loading...</th>
+            <th class="column column__3 border border-gray-300 p-2" data-key="location_head">Loading...</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-gray-300 p-2" data-key="first_period_job">Loading...</td>
+            <td class="border border-gray-300 p-2">
+              <p class="text-2xl mb-2" data-key="first_company">Loading...</p>
+              <p class="mb-2 text-justify" data-key="description_first_company"></p>
+              <p class="mb-2 text-justify" data-key="position_first_company"></p>
+              <p class="mb-2 text-justify" data-key="technologies_first_company"></p>
+            </td>
+            <td class="border border-gray-300 p-2" data-key="first_location_job">Loading...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+   </section>
+   <section id="education">
+    <div class="section-title text-2xl" data-key="education">Loading...</div>
+    <div class="section-content text-lg">
+      <p class="text-xl mb-1"><strong data-key="university_name">Loading...</strong></p>
+      <p class="mb-1"data-key="university_specialization_name">Loading...</p>
+      <p class="mb-1">2023 - 2026</p>
+      <p class="text-right"><strong data-key="university_location">Loading...</strong></p>
+      <hr class="my-3"/>
+      <p class="text-xl mb-1"><strong data-key="college_name">Loading...</strong></p>
+      <p class="mb-1" data-key="college_specialization_name">Loading...</p>
+      <p class="mb-1">2018 - 2022</p>
+      <p class="text-right"><strong data-key="college_location">Loading...</strong></p>
+    </div>
+   </section>
+   <section id="skills">
+    <div class="section-title text-2xl" data-key="skills">Loading...</div>
+    <div class="section-content">
+      <ul class="list-none text-lg">
+        <li>💻 <strong class="text-xl" data-key="skills_languages"></strong> Swift, Kotlin, Java, SQL</li>
+        <li>🗄️ <strong class="text-xl" data-key="skills_database"></strong> Oracle SQL, PostgresSQL</li>
+        <li>🛠️ <strong class="text-xl" data-key="skills_stack"></strong> SwiftUI, Jetpack Compose, REST API</li>
+        <li>🔧 <strong class="text-xl" data-key="skills_tools"></strong> Git, Xcode, Visual Studio Code, Android Studio </li>
+      </ul>
+    </div>
+   </section>
+  </div>
+  <div id="bg">
+    <canvas></canvas>
+    <canvas></canvas>
+    <canvas></canvas>
+  </div>
+  <script src="js/script.js" type="text/javascript"></script>
+ </body>
+</html>
